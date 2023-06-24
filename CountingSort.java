@@ -1,5 +1,6 @@
 
 //COUNTING SORT
+//should be used when range is small and elements of array are non negative
 //Time Complexity: O(n+largest), which is approx O(n) if largest is considerably small as compared to n
 
 import java.util.Scanner;
