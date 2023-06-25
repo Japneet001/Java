@@ -9,7 +9,9 @@ public class Search2DArray {
         for (int i = 0; i < matrix.length; i++) { // matrix.length: calculate number of rows
             for (int j = 0; j < matrix[0].length; j++) { // matrix[0].length: calculate number
                 if (key == matrix[i][j]) {
-                    System.out.print("element is at postion: " + i + " " + j);
+                    System.out.print("Element is at postion: " + i + " " + j);
+                } else {
+                    System.out.println("Element not found");
                 }
             }
         }
