@@ -1,3 +1,5 @@
+// Given a route containing 4 directions (N,E,W,S), find the shortest path to reach the destination 
+
 import java.util.Scanner;
 
 public class ShortestPath {
